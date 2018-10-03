@@ -118,3 +118,15 @@ C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\
 C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\obj\Debug\MovieRentalsStore.csproj.CopyComplete
 C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\obj\Debug\MovieRentalsStore.dll
 C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\obj\Debug\MovieRentalsStore.pdb
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\obj\Debug\MovieRentalsStore.Migrations.InitialModel.resources
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\obj\Debug\MovieRentalsStore.csproj.GenerateResource.cache
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\obj\Debug\MovieRentalsStore.Migrations.AddIsSuscribedToCustomer.resources
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\obj\Debug\MovieRentalsStore.Migrations.AddMembershipType.resources
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\obj\Debug\MovieRentalsStore.Migrations.PopulateMembershipTypes.resources
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\obj\Debug\MovieRentalsStore.Migrations.ApplyAnotationsToCustomerName.resources
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\obj\Debug\MovieRentalsStore.Migrations.AddingNameToMembershipType.resources
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\obj\Debug\MovieRentalsStore.Migrations.PopulatingNameInMemberShipType.resources
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\obj\Debug\MovieRentalsStore.Migrations.AddingRequiredAtributeToName.resources
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\obj\Debug\MovieRentalsStore.Migrations.AddingBirthDateToCustomer.resources
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\obj\Debug\MovieRentalsStore.Migrations.AddingMovieAndGenreTablesToDatabase.resources
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\obj\Debug\MovieRentalsStore.Migrations.PopulatingGenreTable.resources
