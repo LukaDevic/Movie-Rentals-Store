@@ -68,8 +68,6 @@ namespace MovieRentalsStore.Controllers
                 Console.WriteLine(e);
             }
 
-
-
             return RedirectToAction("Index", "Movies");
         }
 

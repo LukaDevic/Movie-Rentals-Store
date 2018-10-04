@@ -29,6 +29,7 @@ namespace MovieRentalsStore.ViewModels
         [Display(Name = "Number in Stock")]
         [Range(1, 20)]
         public int NumberInStock { get; set; }
+
         public string Title
         {
             get

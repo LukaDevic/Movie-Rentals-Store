@@ -130,3 +130,11 @@ C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\
 C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\obj\Debug\MovieRentalsStore.Migrations.AddingBirthDateToCustomer.resources
 C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\obj\Debug\MovieRentalsStore.Migrations.AddingMovieAndGenreTablesToDatabase.resources
 C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\obj\Debug\MovieRentalsStore.Migrations.PopulatingGenreTable.resources
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\bin\System.Net.Http.Formatting.dll
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\bin\System.Web.Http.dll
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\bin\System.Web.Http.WebHost.dll
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\bin\System.Net.Http.Formatting.xml
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\bin\System.Web.Http.xml
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\bin\System.Web.Http.WebHost.xml
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\bin\AutoMapper.dll
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\bin\AutoMapper.xml
