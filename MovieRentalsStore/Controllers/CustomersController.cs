@@ -28,17 +28,29 @@ namespace MovieRentalsStore.Controllers
             var membershipTypes = _context.MembershipTypes.ToList();
             var viewModel = new CustomerFormViewModel
             {
+                Customer = new Customer(),
                 MembershipTypes = membershipTypes
-        };
+            };
 
 
-            return View("CustomerForm",viewModel);
+            return View("CustomerForm", viewModel);
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Save(Customer customer)
         {
-            if(customer.Id == 0)                
+            if (!ModelState.IsValid)
+            {
+                var viewModel = new CustomerFormViewModel
+                {
+                    Customer = customer,
+                    MembershipTypes = _context.MembershipTypes.ToList()
+                };
+                return View("CustomerForm", viewModel);
+            }
+
+            if (customer.Id == 0)
                 _context.Customers.Add(customer);
             else
             {
@@ -58,19 +70,19 @@ namespace MovieRentalsStore.Controllers
         // GET: Customers
         public ActionResult Index()
         {
-            var customers = _context.Customers.Include(c=> c.MembershipType).ToList();
+            var customers = _context.Customers.Include(c => c.MembershipType).ToList();
 
             return View(customers);
         }
 
         public ActionResult Details(int id)
         {
-            var customer = _context.Customers.Include(c=> c.MembershipType).SingleOrDefault(c => c.Id == id);
+            var customer = _context.Customers.Include(c => c.MembershipType).SingleOrDefault(c => c.Id == id);
 
             if (customer == null)
                 return HttpNotFound();
 
-            return View(customer);        
+            return View(customer);
         }
 
         public ActionResult Edit(int id)
@@ -89,6 +101,6 @@ namespace MovieRentalsStore.Controllers
 
             return View("CustomerForm", viewModel);
         }
- 
+
     }
 }

@@ -12,8 +12,7 @@ namespace MovieRentalsStore.Models
 
         [Required]
         public string Name { get; set; }
-
-        [Required]
+        
         public Genre Genre { get; set; }
 
         [Required]
@@ -21,14 +20,14 @@ namespace MovieRentalsStore.Models
         public int GenreId { get; set; }
 
         [Required]
-        [Display(Name ="Release Date")]
+        [Display(Name ="Release Date")]        
         public DateTime ReleaseDate { get; set; }
-
-        [Required]
+        
         public DateTime DateAdded { get; set; }
 
         [Required]
         [Display(Name="Number in Stock")]
+        [Range(1,20)]
         public int NumberInStock { get; set; }
     }
 }
