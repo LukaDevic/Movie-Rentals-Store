@@ -138,3 +138,6 @@ C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\
 C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\bin\System.Web.Http.WebHost.xml
 C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\bin\AutoMapper.dll
 C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\bin\AutoMapper.xml
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\obj\Debug\MovieRentalsStore.Migrations.SeedUsers.resources
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\obj\Debug\MovieRentalsStore.Migrations.AddDrivingLicenseToApplicationUser.resources
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\obj\Debug\MovieRentalsStore.Migrations.AddingPhonePropertyToUsers.resources

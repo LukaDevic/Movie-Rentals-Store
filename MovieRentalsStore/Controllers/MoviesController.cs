@@ -18,6 +18,7 @@ namespace MovieRentalsStore.Controllers
             _context = new ApplicationDbContext();
         }
 
+        [Authorize(Roles= RoleName.CanManageMovies)]
         public ActionResult New()
         {
             var genres = _context.Genres.ToList();
@@ -32,6 +33,7 @@ namespace MovieRentalsStore.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public ActionResult Save(Movie movie)
         {
             if (!ModelState.IsValid)
@@ -71,6 +73,7 @@ namespace MovieRentalsStore.Controllers
             return RedirectToAction("Index", "Movies");
         }
 
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public ActionResult Edit(int id)
         {
             var movie = _context.Movies.SingleOrDefault(m => m.Id == id);
@@ -89,7 +92,10 @@ namespace MovieRentalsStore.Controllers
 
         public ActionResult Index()
         {
-            return View();
+            if (User.IsInRole(RoleName.CanManageMovies))
+                return View("List");
+            
+                return View("ReadOnlyList");
         }
 
         public ActionResult Details(int id)
