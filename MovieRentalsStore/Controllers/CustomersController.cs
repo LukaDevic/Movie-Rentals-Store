@@ -1,6 +1,7 @@
 ﻿using MovieRentalsStore.Models;
 using MovieRentalsStore.ViewModels;
 using System;
+using System.Runtime.Caching;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -70,6 +71,13 @@ namespace MovieRentalsStore.Controllers
         // GET: Customers
         public ActionResult Index()
         {
+            if (MemoryCache.Default["Genres"] == null)
+            {
+                MemoryCache.Default["Genres"] = _context.Genres.ToList();
+            }
+
+            var genres = MemoryCache.Default["Genres"] as IEnumerable<Genre>;
+
             return View();
         }
 

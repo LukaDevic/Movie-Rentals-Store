@@ -141,3 +141,10 @@ C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\
 C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\obj\Debug\MovieRentalsStore.Migrations.SeedUsers.resources
 C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\obj\Debug\MovieRentalsStore.Migrations.AddDrivingLicenseToApplicationUser.resources
 C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\obj\Debug\MovieRentalsStore.Migrations.AddingPhonePropertyToUsers.resources
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\bin\Glimpse.Ado.dll
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\bin\Glimpse.AspNet.dll
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\bin\Glimpse.Core.dll
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\bin\Glimpse.EF6.dll
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\bin\Glimpse.Mvc5.dll
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\obj\Debug\MovieRentalsStore.Migrations.AddingRentalsDataBaseandOneNewMovieProperty.resources
+C:\Users\MARKO\Desktop\Fajlovi za Git hub\Movie-Rentals-Store\MovieRentalsStore\obj\Debug\MovieRentalsStore.Migrations.UpdatingMoviesNumberAvailable.resources
